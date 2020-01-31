@@ -1,3 +1,17 @@
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Arapey', serif;
+*/
+nav {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
 body {
-    background: black;
+    background: #202020;
+}
+
+#rockyLogo{
+    border-radius: 20%;
 }
