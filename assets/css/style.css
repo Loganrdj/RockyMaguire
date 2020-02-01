@@ -1,7 +1,7 @@
 /* 
 font-family: 'Playfair Display', serif;
 font-family: 'Cinzel', serif;
-font-family: 'Arapey', serif;
+font-family: 'Montserrat', sans-serif;
 */
 
 nav {
@@ -9,7 +9,7 @@ nav {
 }
 
 nav, footer {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     font-size: 18px;
     border: 3px solid rgb(50, 50, 255);
     opacity: .8;
@@ -41,6 +41,8 @@ footer{
     border: 2px solid rgb(50,50,255);
     margin: 0px 15px 0px 15px;
     opacity: .8;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
 }
 
 /* mdbootstrap usage - https://mdbootstrap.com/plugins/jquery/gallery/ */
