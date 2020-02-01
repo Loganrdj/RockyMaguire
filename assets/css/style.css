@@ -70,7 +70,7 @@ footer{
 } */
 
 .btn{
-    border: 2px solid rgb(50,50,255);
+    border: 1px solid black;
     margin: 0px 15px 0px 15px;
     opacity: .8;
     font-family: 'Cinzel', serif;
