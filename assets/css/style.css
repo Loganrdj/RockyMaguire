@@ -11,7 +11,7 @@ nav {
 nav, footer {
     font-family: 'Cinzel', serif;
     font-size: 18px;
-    border: 4px double black;
+    /* border: 4px double black; */
     opacity: .8;
 }
 
