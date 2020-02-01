@@ -15,6 +15,10 @@ nav, footer {
     opacity: .8;
 }
 
+.homePageImg{
+    border: 3px solid rgb(50,50,255);
+}
+
 #homeID{
     margin: 0px 10px 0px 10px;
     padding-left: 5%;
