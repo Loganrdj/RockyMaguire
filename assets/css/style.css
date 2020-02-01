@@ -36,7 +36,7 @@ nav, footer {
 
 body {
     font-family: 'Cinzel', serif;
-    background: lightgray;
+    background: #E9ECEF;
     /* color: white; */
     text-align: center;
 }
@@ -45,6 +45,7 @@ body {
     border-radius: 20%;
 }
 footer{
+    display: none;
     position: fixed;
     left: 0;
     bottom: 0;
