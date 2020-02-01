@@ -12,5 +12,5 @@ $(function() {
 });
 
 $(".homePageImg").on("click", function(){
-    alert("Hello Ty, this will link you to portfolio page.")
+    
 })
