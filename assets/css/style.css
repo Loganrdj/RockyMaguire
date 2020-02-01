@@ -15,15 +15,24 @@ nav, footer {
     opacity: .8;
 }
 
+#homeID{
+    margin: 0px 10px 0px 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 body {
+    font-family: 'Cinzel', serif;
     background: #202020;
+    /* color: white; */
+    text-align: center;
 }
 
 #rockyLogo{
     border-radius: 20%;
 }
 footer{
-    position: none;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
