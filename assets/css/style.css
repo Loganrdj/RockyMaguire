@@ -32,7 +32,7 @@ body {
     border-radius: 20%;
 }
 footer{
-    position: none;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
