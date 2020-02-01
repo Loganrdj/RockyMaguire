@@ -15,8 +15,17 @@ nav, footer {
     opacity: .8;
 }
 
-.homePageImg{
+/* .homePageImg{
     border: 3px solid rgb(50,50,255);
+} */
+#homePageButton{
+    background-image: url(/assets/images/craftsmanCarmel/01.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* put the height and width of your image here */
+    height: 50px;
+    width: 200px;
+    border: none;
 }
 
 #homeID{
@@ -27,7 +36,7 @@ nav, footer {
 
 body {
     font-family: 'Cinzel', serif;
-    background: #202020;
+    background: lightgray;
     /* color: white; */
     text-align: center;
 }
@@ -36,7 +45,7 @@ body {
     border-radius: 20%;
 }
 footer{
-    position: none;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
