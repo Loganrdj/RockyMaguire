@@ -28,6 +28,10 @@ nav, footer {
     border: none;
 }
 
+.homePageImg{
+    border: 2px solid black;
+}
+
 #homeID{
     margin: 0px 10px 0px 10px;
     padding-left: 5%;
