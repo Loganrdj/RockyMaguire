@@ -2,6 +2,7 @@
 font-family: 'Playfair Display', serif;
 font-family: 'Cinzel', serif;
 font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
 */
 
 nav {
@@ -18,15 +19,35 @@ nav, footer {
 /* .homePageImg{
     border: 3px solid rgb(50,50,255);
 } */
-#homePageButton{
-    background-image: url(/assets/images/craftsmanCarmel/01.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    /* put the height and width of your image here */
-    height: 50px;
-    width: 200px;
-    border: none;
+
+#contactCard{
+    font-family: 'Cinzel', serif;
+    color :white;
+    background-image: url(../images/contactimage.jpg);
+    height: 600px;
+    width: 800px;
+    border-radius: 2%;
 }
+
+form{
+    text-align: left;
+}
+
+#contactForm{
+    border-radius: 15%;
+}
+.form-control{
+    width: 60%;
+}
+.userText{
+    font-family: 'Lato', sans-serif;
+}
+
+.contactBtn{
+    width: 29%;
+    background-color: rgb(67, 160, 218);
+}
+
 
 .jumbotron{
     height:850px;
@@ -37,6 +58,10 @@ nav, footer {
     
 }
 
+#extraStyling{
+    color:rgb(67, 160, 218);
+}
+
 #homeID{
     margin: 0px 10px 0px 10px;
     padding-left: 5%;
@@ -44,9 +69,8 @@ nav, footer {
 }
 
 body {
-    font-family: 'Cinzel', serif;
+    font-family: 'Playfair Display', serif;
     background: #E9ECEF;
-    /* color: white; */
     text-align: center;
 }
 
@@ -67,11 +91,6 @@ footer{
 .footerText{
     font-size: 10px;
 }
-
-/* p{
-    font-family: 'Playfair Display', serif;
-    font-size:15px;
-} */
 
 .btn{
     border: 1px solid black;

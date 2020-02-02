@@ -11,6 +11,21 @@ $(function() {
     });
 });
 
-$(".homePageImg").on("click", function(){
-    
+$(".contactBtn").on("click", function(){
+    $(this).fadeOut(200);
+    $(this).fadeIn(200);
+    $(this).animate({
+        opacity: '.5'
+    })
+})
+$(".resetBtn").on("click", function(){
+    $("textarea").val("");
+    $(this).fadeOut(200);
+    $(this).fadeIn(500);
+})
+$(".contactBtn").mouseenter(function(){
+    $(this).text("Submit >>");
+})
+$(".contactBtn").mouseleave(function(){
+    $(this).text("Submit");
 })
