@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Lato|Petit+Formal+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../RockyMaguire/assets/css/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../RockyMaguire/jQuery-Waterwheel-Carousel-Plugin/js/jquery.waterwheelCarousel.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 <!-- Nav Bar start -->
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
@@ -34,21 +37,6 @@
             <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <!-- Drop down menu option -->
-            <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Portfolio
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="portfolio.html">French Country</a>
-                <a class="dropdown-item" href="#">The Preserve</a>
-                <a class="dropdown-item" href="#">Contemporary</a>
-                <a class="dropdown-item" href="#">Tehama</a>
-                <a class="dropdown-item" href="#">Craftsman Monterey</a>
-                <a class="dropdown-item" href="#">Craftsman Contemporary</a>
-                <a class="dropdown-item" href="#">Craftsman Carmel</a>
-                </div>
-            </li> -->
         </ul>
     </div>
     <div>
@@ -62,56 +50,37 @@
 <!-- Nav bar end -->
 <!-- Page Body here -->
 <body>
-   <!-- Footer Here -->
    <div class="jumbotron">
         <h1 class="display-4">Rocky Maguire Inc</h1>
         <p class="lead">Luxury home building company</p>
         <hr class="my-4">
-        
-        <div class="container">
-            <div class="row align-items-start">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-            </div>
-            <br>
-            <div class="row align-items-center">
-                <div class="col">
-                    <div class="col-sm">
-                        <!-- <img class="img-fluid homePageImg" src="../RockyMaguire/assets/images/santaLucia/20.jpg" alt="Santa Lucia IMG"> -->
-                        <a href="../RockyMaguire/portfolio.html"><img class="img-fluid homePageImg" src="../RockyMaguire/assets/images/santaLucia/20.jpg" alt="Santa Lucia IMG"></a>
-                    </div>
-              </div>
-                <div class="col">
-                    <div class="col-sm">
-                        <!-- <img class="img-fluid homePageImg" src="../RockyMaguire/assets/images/craftsmanCarmel/01.jpg" alt="Craftsman Carmel IMG"> -->
-                        <a href="../RockyMaguire/portfolio.html"><img class="img-fluid homePageImg" src="../RockyMaguire/assets/images/craftsmanCarmel/01.jpg" alt="Craftsman Carmel IMG"></a>
-                    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="carousel"> 
+                    <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/01.jpg" id="item-1" /> 
+                    <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/02.jpg" id="item-2" /> 
+                    <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/03.jpg" id="item-3" /> 
+                    <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/04.jpg" id="item-4" /> 
+                    <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/05.jpg" id="item-5" /> 
+                    <!-- <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/06.jpg" id="item-6" />  -->
+                    <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/07.jpg" id="item-7" /> 
+                    <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/08.jpg" id="item-8" /> 
+                    <img class="animatedImg" src="../RockyMaguire/assets/images/craftsmanCarmel/09.jpg" id="item-9" /> 
                 </div>
-                <div class="col">
-                    <div class="col-sm">
-                        <!-- <img class="img-fluid homePageImg" src="../RockyMaguire/assets/images/frenchCountry/01.jpg" alt="French Country IMG"> -->
-                        <a href="../RockyMaguire/portfolio.html"><img class="img-fluid homePageImg" src="../RockyMaguire/assets/images/frenchCountry/01.jpg" alt="French Country IMG"></a>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-            <p class="secondFont">Elegance can be crafted</p>
-                <div class="row align-items-end">
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                </div>
-          </div>
-          <hr class="my-4">
-          <p class="lead">(831) 915 - 4517</p>
-          <p class="lead">rockymaguire@sbcglobal.net</p>
+                <a href="#" class="btn btnCarousel" id="prev">Prev</a>
+                <a href="#" class="btn btnCarousel" id="next">Next</a>
+                <p class=secondFont>Elegance can be crafted</p>
+        <!-- Body gallery goes -->
+            </div> 
+        </div>
+        <div id=footerContainer>
+            <hr class="my-4">
+            <p class="lead">(831) 915 - 4517</p>
+            <p class="lead">rockymaguire@sbcglobal.net</p>
+        </div>
   </div>
-
-<!-- 
-
- -->
-
+  <br><br><br><br><br><br><br><br><br>
+  <!-- Footer goes here -->
     <footer>
         <br>
         <p class="footerText">Custom Luxury Home Builder in Monterey, Pacific Grove, Carmel, Carmel Valley, Big Sur, Pebble Beach, and surrounding areas in The Peninsula. Rocky Maguire Builders, General Contractor, Project Construction Manager.
@@ -120,5 +89,6 @@
         <br>
     </footer>
 </body>
+
 <script type="text/javascript" src="../RockyMaguire/assets/javascript/javascript.js"></script> 
 </html>
