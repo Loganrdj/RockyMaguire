@@ -30,7 +30,16 @@ $(".contactBtn").mouseleave(function(){
     $(this).text("Submit");
 })
 
-$(".homePageImg").hover(function()
+
+$(".homePageImg").mouseenter(function()
 { 
-   $(this).toggleClass('classWithShadow');
+    $(this).toggleClass('classWithShadow');
+    $(this).animate({ top: "-=2px" }, {duration: 200, queue: false});
+    $(this).animate({ left: "-=2px" }, {duration: 200, queue: false});
+});
+$(".homePageImg").mouseleave(function()
+{ 
+    $(this).toggleClass('classWithShadow');
+    $(this).animate({ top: "+=2px" }, {duration: 200, queue: false});
+    $(this).animate({ left: "+=2px" }, {duration: 200, queue: false});
 });
