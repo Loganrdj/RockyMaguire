@@ -29,3 +29,8 @@ $(".contactBtn").mouseenter(function(){
 $(".contactBtn").mouseleave(function(){
     $(this).text("Submit");
 })
+
+$(".homePageImg").hover(function()
+{ 
+   $(this).toggleClass('classWithShadow');
+});

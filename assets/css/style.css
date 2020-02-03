@@ -82,9 +82,15 @@ textarea{
 
 }
 
+.classWithShadow{
+    -moz-box-shadow: 3px 3px 4px rgb(36, 36, 36); 
+    -webkit-box-shadow: 3px 3px 4px rgb(39, 39, 39); 
+    box-shadow: 3px 3px 4px rgb(37, 37, 37); 
+ }
 
 .jumbotron{
     height:850px;
+    padding-top: 30px;
 }
 
 .homePageImg{
