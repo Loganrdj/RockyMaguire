@@ -22,9 +22,9 @@ nav, footer {
 
 #contactCard{
     font-family: 'Cinzel', serif;
-    color :white;
-    background-image: url(../images/contactimage.jpg);
-    height: 600px;
+    color :black;
+    /* background-image: url(../images/contactimage.jpg); */
+    height: 805px;
     width: 800px;
     border-radius: 2%;
 }
@@ -32,20 +32,54 @@ nav, footer {
 form{
     text-align: left;
 }
-
+.card-body{
+    padding:50px;
+}
 #contactForm{
     border-radius: 15%;
+}
+.contactSpacing{
+    /* padding-bottom:20px; */
 }
 .form-control{
     width: 60%;
 }
-.userText{
+.contactInfo{
+    text-align: left;
+    font-size: 16px;
+}
+#rockyImg{
+    margin-right: 40px;
+}
+#rockySpace{
+    margin: 15px 0px 15px 0px;
+}
+.userText,textarea, input{
     font-family: 'Lato', sans-serif;
+    /* margin-left:5%; */
+    /* border-radius: 3%; */
+    width: 100%;
+    padding: 7px;
+    margin-top:40px;
+    background-color: rgb(219, 219, 219);
+    border: none;
+}
+textarea{
+    height: 250px;
 }
 
 .contactBtn{
     width: 29%;
     background-color: rgb(67, 160, 218);
+    color:white;
+    border: none;
+    opacity: .8;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5%;
+    margin-top: 37px;
+
 }
 
 
@@ -69,7 +103,7 @@ form{
 }
 
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     background: #E9ECEF;
     text-align: center;
 }
