@@ -30,7 +30,6 @@ $(".contactBtn").mouseleave(function(){
     $(this).text("Submit");
 })
 
-
 $(".homePageImg").mouseenter(function()
 { 
     $(this).toggleClass('classWithShadow');
