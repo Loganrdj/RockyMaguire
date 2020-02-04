@@ -19,11 +19,6 @@ $(document).ready(function(){
             opacity: '.5'
         })
     })
-    $(".resetBtn").on("click", function(){
-        $("textarea").val("");
-        $(this).fadeOut(200);
-        $(this).fadeIn(500);
-    })
     $(".contactBtn").mouseenter(function(){
         $(this).text("Submit >>");
     })
