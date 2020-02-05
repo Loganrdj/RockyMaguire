@@ -70,7 +70,7 @@ $(document).ready(function(){
         startingItem:               0,   // item to place in the center of the carousel. Set to 0 for auto
         separation:                 175, // 175 distance between items in carousel
         separationMultiplier:       .85, // .85 multipled by separation distance to increase/decrease distance for each additional item
-        horizonOffset:              25,   // offset each item from the "horizon" by this amount (causes arching)
+        horizonOffset:              0,   // offset each item from the "horizon" by this amount (causes arching)
         horizonOffsetMultiplier:    1,   // multipled by horizon offset to increase/decrease offset for each additional item
         sizeMultiplier:             0.7, // determines how drastically the size of each item changes
         opacityMultiplier:          0.8, // determines how drastically the opacity of each item changes

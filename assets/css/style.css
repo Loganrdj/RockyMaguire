@@ -165,6 +165,14 @@ textarea{
 
 }
 
+.movedImgs{
+    margin-top: 70px;
+}
+
+.movedImgMid{
+    margin-top: -70px;
+}
+
 /* -----------------------------Portfolio Page----------------------------- */
 .btn{
     background-color: #b0962d;
