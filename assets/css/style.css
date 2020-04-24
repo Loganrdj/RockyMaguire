@@ -41,6 +41,8 @@ body {
     height:850px;
     padding-top: 30px;
     background-color: white;
+    position: relative;
+    z-index: -1 !important;
     /* margin-bottom: 920px; */
 }
 
@@ -172,6 +174,23 @@ textarea{
 .movedImgMid{
     margin-top: -70px;
 }
+.detailedBox{
+    background-color: black;
+    display: block;
+    opacity: .8;
+    color: white;
+    position: fixed;
+    width: 90%;
+    height: 80%;
+    margin: 2% 5% 2% 5%;
+    float: left;
+}
+.detailedHeading{
+    padding-bottom: 40px;
+}
+.detailedText{
+    padding-bottom: 15px;
+}
 
 /* -----------------------------Portfolio Page----------------------------- */
 .btn{
@@ -182,6 +201,9 @@ textarea{
     opacity: .8;
     font-family: 'Cinzel', serif;
     font-weight: bold;
+}
+.portfolioRow{
+    width: 100%;
 }
 
 /* mdbootstrap usage - https://mdbootstrap.com/plugins/jquery/gallery/ */
