@@ -42,7 +42,7 @@ body {
     padding-top: 30px;
     background-color: white;
     position: relative;
-    z-index: -1 !important;
+    /* z-index: -1 !important; */
     /* margin-bottom: 920px; */
 }
 
